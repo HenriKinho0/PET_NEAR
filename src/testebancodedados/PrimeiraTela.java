@@ -1,4 +1,4 @@
-package view;
+package testebancodedados;
 
 import java.awt.EventQueue;
 import java.awt.Font;

@@ -1,4 +1,4 @@
-package view;
+package testebancodedados;
 
 import java.awt.Cursor;
 import java.awt.EventQueue;

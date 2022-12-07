@@ -1,16 +1,17 @@
-package view;
+package testebancodedados;
 
-import java.awt.Cursor;
 import java.awt.EventQueue;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.Cursor;
 
-public class TelaMenu extends JFrame{
+public class TelaMenu extends JFrame {
+
 
 	/**
 	 * Launch the application.
@@ -44,12 +45,6 @@ public class TelaMenu extends JFrame{
 		getContentPane().setLayout(null);
 		
 		JButton btnAlterar_Dados = new JButton("");
-		btnAlterar_Dados.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				TelaAlterar_Dados AlterarDadosTela = new TelaAlterar_Dados();
-				AlterarDadosTela.setVisible(true);
-			}
-		});
 		btnAlterar_Dados.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnAlterar_Dados.setContentAreaFilled(false);
 		btnAlterar_Dados.setBorderPainted(false);
